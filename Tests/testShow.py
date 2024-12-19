@@ -1,8 +1,6 @@
 import unittest
-from unittest.mock import patch, MagicMock
-import numpy as np
-from model.logic import Logic
-from ui.show import Tkinter, graph_show
+from unittest.mock import patch
+from ui.show import Tkinter
 
 class TestGraphShow(unittest.TestCase):
 
